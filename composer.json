@@ -1,0 +1,17 @@
+{
+  "name": "nedsbeds/blt-command-installer",
+  "type": "composer-plugin",
+  "license": "GPL-3.0-only",
+  "autoload": {
+    "psr-0": {"nedsbeds\\Composer": "src/"}
+  },
+  "extra": {
+    "class": "nedsbeds\\Composer\\BLTCommandInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.3"
+  }
+}
